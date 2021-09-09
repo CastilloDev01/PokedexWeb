@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport">
+      <link rel="shortcut icon" href="assets/pokeball.png">
+      <title>Pokedex Web</title>
+		<link rel = "preconnect" href = "https://fonts.googleapis.com">
+		<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+		<link href = "https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel ="stylesheet">
+		<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+      <nav>
+            <h1 class="center" style="margin: 0px">POKEDEX WEB</h1>
+            <p class="center">Search for Pokemon by Name or ID!</p>
+        	<form class="center" id="searchPokemon">  
+                  <input type="text" id="search-pokemon" placeholder="Search by Name or ID!">
+            </form>
+      </nav>
+      <div id="pokemons"> </div>
+		
+		<p id="loading-message" class="center">LOADING ...</p>
+      <button class="center" id="loadMore">Load more pokemon!</button>
+		<p style="justify-content: left;
+					 text-align: right;
+					 font-size: 10px;
+					 padding-top: 40px;
+					 color: #fbfbfb;
+					 margin: 0;
+					 padding: 0;">
+						 has buscado 10186 en la pokedex?</p>
+		<footer>
+			<h2 class="center" style="margin: 0px; padding: 30px;
+    		font-size: 30px; color: white;">MIS REDES SOCIALES</h2>
+			<div style="display: flex; justify-content: center;">
+				<a  style="margin: 10px" target="_blank" class="center" href="https://github.com/CastilloDev01">
+					<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style="width: 60px;">
+				</a>
+				<a style="margin: 10px" target="_blank" class="center" href="https://www.facebook.com/josemanuel.castillo.7921">
+					<img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" style="width: 60px;">
+				</a>
+			</div>
+		</footer>
+		
+		<div id="seePokedex" class="center"></div>
+		<script src="main.js"></script>
+</body>
+</html>
